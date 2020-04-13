@@ -10,7 +10,24 @@
 	<servlet-name>abc</servlet-name>
 	<url-pattern>/add</url-pattern>
 </servlet-mapping>
+<servlet>
+<servlet-name>Login</servlet-name>
+<servlet-class>Login</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>CalcularIdade</servlet-name>
+	<servlet-class>CalcularIdade</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Login</servlet-name>
+<url-pattern>/servlet1</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>CalcularIdade</servlet-name>
+<url-pattern>/servlet2</url-pattern>
 
+
+</servlet-mapping>
 
 
 </web-app>
