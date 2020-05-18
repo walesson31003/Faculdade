@@ -9,7 +9,7 @@
 <body>
 <form action="add">
 	
-		Calculadora:<br>
+		Calculadora: <br>
 		
 		Data Nascimento: <input type="text" name="num1" > <input type="text" name="num2"  ><input type="text" name="num3"><br>
 	 
