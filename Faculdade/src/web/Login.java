@@ -27,7 +27,7 @@ import javax.servlet.http.HttpServletResponse;
 			String pass = request.getParameter("password");
 			
 			if( pass.equals("admin") && name.equals("admin")) {
-				RequestDispatcher rd=request.getRequestDispatcher("Index.html");
+				RequestDispatcher rd=request.getRequestDispatcher("Index.jsp");
 				rd.forward(request, response);
 				//or response.sendRedirect("Index.html");
 			

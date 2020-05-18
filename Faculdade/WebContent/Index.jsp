@@ -1,9 +1,13 @@
-<!DOCTYPE html >
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
 <head>
-<title>Insert title here</title>
+<meta charset="ISO-8859-1">
+<title>Calculadora</title>
 </head>
 <body>
-	<form action="add">
+<form action="add">
 	
 		Calculadora:<br>
 		
@@ -12,7 +16,5 @@
 		<input type= "Submit" value="Calcular" >
 
 	</form>
-	
-	
 </body>
 </html>
